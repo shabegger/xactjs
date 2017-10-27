@@ -1,0 +1,25 @@
+{
+  "name": "xactjs",
+  "version": "0.0.1",
+  "description": "Number representations with expression simplification to reduce/eliminate floating-point errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabegger/xactjs.git"
+  },
+  "keywords": [
+    "float",
+    "number",
+    "expression",
+    "simplify"
+  ],
+  "author": "Stephen Habegger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shabegger/xactjs/issues"
+  },
+  "homepage": "https://github.com/shabegger/xactjs#readme"
+}
