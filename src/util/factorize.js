@@ -3,6 +3,7 @@
 const primes = new Set([ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]);
 const sequentialPrimes = new Set(primes);
 
+// TODO: Improve by adding to list of sequential primes, not just all primes
 export default function factorize(number) {
   if (!Number.isInteger(number)) {
     throw new Error('Input must be an integer');

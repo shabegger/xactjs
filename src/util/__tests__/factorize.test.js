@@ -10,7 +10,7 @@ describe('The factorize function', () => {
 
   it('fails on zero input', () => {
     expect(() => factorize(0)).toThrowError('Input must be positive');
-  })
+  });
 
   if ('fails on negative input', () => {
     expect(() => factorize(-3)).toThrowError('Input must be positive');
